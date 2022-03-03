@@ -40,19 +40,19 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
-  skills: [
+  //subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  skills: [/*
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web sites"
     ),
     emoji("⚡ Single Page Aplications (SPA) and SSR Stacks"),
     emoji(
       "⚡ Integration of third party services such as Heroku"
-    )
+    )*/
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+  https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -147,9 +147,6 @@ const educationInfo = {
       subHeader: "Information Systems Engineering",
       duration: "March 2017 - December 2021",
       desc: "Information Systems Engineering Degree",
-      descBullets: [
-        "Distinction for Academic Merit from the Universidad Tecnológica Nacional of Villa María.",
-      ]
     },
   ]
 };
@@ -219,33 +216,6 @@ const workExperiences = {
         `Redux`,
       ]
     },
-    {
-      role: "Java Developer",
-      company: "Global Gestión",
-      companylogo: require("./assets/images/globalGestionLogo.png"),
-      date: "June 2019 – September 2019",
-      desc: `Database maintenance.
-      | Working with stakeholders, both internal and external.
-      | Improving the design of internal website components.
-      | Backend development`,
-      descBullets: [
-        `Java`,
-        `Spring Boot`,
-        `HTML`,
-        `CSS`,
-        `Javascript`,
-        `PostgreSQL`,
-      ]
-    },
-    {
-      role: "Universidad Tecnológica Nacional",
-      company: "UTN FRVM",
-      companylogo: require("./assets/images/utnLogo.jpg"),
-      date: "May 2018 – December 2018",
-      desc: `Installation of network equipment |
-      Network maintenance.`
-    },
-
   ]
 };
 
@@ -286,30 +256,6 @@ const languages = {
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: "emojione:flag-for-russia",
-      projectName: "Russian",
-      projectDesc: "Intermediate",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    },
-
-    {
-      image: "emojione:flag-for-france",
-      projectName: "French",
-      projectDesc: "Basic",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    },
-
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -362,7 +308,7 @@ const achievementSection = {
     },
 
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false// Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -425,8 +371,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com",
+  //number: "+92-3243454077",
+  email_address: "rotondarolucas@gmail.com",
   display:false
 };
 
