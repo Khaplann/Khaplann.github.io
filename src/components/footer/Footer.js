@@ -12,7 +12,7 @@ export default function Footer() {
     <Fade bottom duration={1000} distance="5px">
       <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          {emoji("Made with ❤️ by Giuliano Pértile")}
+          {emoji("Made with ❤️ by Lucas Rotondaro")}
         </p>
         <p className={isDark ? "dark-mode footer-text center-emoji-footer" : "footer-text center-emoji-footer"}>
           <DisplayLottie animationData={lovelyEmoji} />
